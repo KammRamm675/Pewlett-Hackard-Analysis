@@ -12,7 +12,7 @@ https://raw.githubusercontent.com/KammRamm675/Pewlett-Hackard-Analysis/main/Data
 
   -	Secondly, a question begged to be asked.  “What type of employee are we losing?” Out of the 72,458 members being lost we are going to be losing members from 7 types of titles, most of which being leadership toles. Please see picture “NAME” below:
 
-Pewlett-Hackard-Analysis/Titles and Count Loss.PNG at main · KammRamm675/Pewlett-Hackard-Analysis
+https://github.com/KammRamm675/Pewlett-Hackard-Analysis/blob/main/At%20A%20Glance%20Pics/Titles%20and%20Count%20Loss.PNG
 
   -	Thirdly, referring to the above picture, 70% of the people retiring is that from leadership.  In my experience GOOD leadership is hard to come by in small numbers let alone over 50,000 members.  So, to me, this might be a foreshadow in significant loss in productivity due to lack of experienced leaders and loss of trust between new hire leaders and long-time workers.  I would suggest implementing a program to quell cohesion resistance. (Pizza parties won’t work) 
 
