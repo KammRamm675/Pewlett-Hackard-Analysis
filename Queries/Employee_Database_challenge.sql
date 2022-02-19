@@ -30,6 +30,7 @@ INTO retiring_titles
 FROM unique_titles as ut
 GROUP BY ut.title
 Order by count DESC;
+
 select * from retiring_titles
 
 -- D-2 Mentorship (retrieve empno, fname, lname, bdate from empcsv / retrieve fdate, tdate from dempcsv / retrieve title from titlescsv USE DISTINCT ON)
@@ -51,3 +52,12 @@ WHERE (de.to_date = '9999-01-01') --current emp = '9999-01-01'
 ORDER BY e.emp_no;
 select * from mentorship_eligibility
 
+-- Added one counter and multiple tables. Counter for the number of available employees able to have mentees and tables for total retiring. 
+
+SELECT COUNT(me.title) as count, me.title
+INTO mentorship_titles
+FROM mentorship_eligibility as me
+GROUP BY me.title
+Order by count DESC;
+
+select * from mentorship_titles
